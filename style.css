@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(188, 182, 182);
+}
+
+#movie-details {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sold-out {
+    text-decoration: line-through;
+    color: red;
+}
+h3{ 
+    position:absolute;
+    top:15px;
+    left:40px;
+    font-size: 25px;
+}
+#films {
+    position: absolute; 
+    left: 0; 
+    top: 50px; 
+    width: 200px; 
+    background: #36343472; 
+    padding: 10px;
+    border-radius: 10px;
+}
+.film-item {
+    padding: 8px;
+    margin: 5px ;
+    cursor: pointer;
+    background: rgb(255, 243, 243);
+    border-radius: 5px;
+   
+}
+.film-item:hover {
+    background: rgba(132, 114, 114, 0.643);
+}
